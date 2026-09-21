@@ -10,5 +10,6 @@
 - `saeed-vayghan/gemini-agent-skills` 的后端开发 Skill：强化 HTTP 语义、数据模型与索引、认证授权、错误处理、日志、性能和安全基线。https://github.com/saeed-vayghan/gemini-agent-skills/blob/master/.gemini/skills/backend-developer/SKILL.md
 - 本地 `grill-me` Skill：一次只问一个问题，沿依赖关系逐步解决决策树，并在完成后总结所有决定。
 - UI 素材目录优先采用许可证明确、社区关注度高的官方仓库：`shadcn-ui/ui`、`radix-ui/themes`、`radix-ui/primitives`、`mantinedev/mantine`、`tailwindlabs/headlessui`、`saadeghi/daisyui` 与 `lucide-icons/lucide`；具体选择和边界见 `ui-material-libraries.md`。
+- 架构与 AI Coding 采用 `github/spec-kit`、`agentsmd/agents.md`、`nrwl/nx`、`vercel/turborepo`、`alan2207/bulletproof-react`、`architecture-decision-record/architecture-decision-record` 与 `github/awesome-copilot` 中可跨技术栈复用的机制；具体取舍见 `architecture-and-ai-coding.md`。
 
 更新时优先保留可跨技术栈复用、能改变执行行为、可验证的机制；不要因某仓库星数高就照搬其人格、目录或刚性流程。
