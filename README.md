@@ -70,6 +70,8 @@
 
 咸鱼一号不会默认通读整个仓库或机械生成全套文档。它先读取仓库规则、目录/搜索结果和目标文件，再沿调用关系按需展开；验证也从定向检查开始，仅在影响半径或发布风险要求时扩展。该机制借鉴 Aider repo map、Repomix、AGENTS.md、GitHub Spec Kit 与 Agent Skills 渐进加载，并在 `references/token-efficient-execution.md` 中记录依据和边界。
 
+公开方法来源、许可证边界与取舍记录见 [`docs/research-basis.md`](docs/research-basis.md)。该维护资料放在 Skill 运行目录之外，避免增加按需支撑文件预算。
+
 ## 开源 UI 素材
 
 Skill 内置经过筛选的素材目录和场景路由，包括 shadcn/ui、Radix、Mantine、Headless UI、daisyUI 和 Lucide。第三方项目仍适用各自许可证；使用前请核对其当前版本与许可条款。
