@@ -1,4 +1,4 @@
 interface:
   display_name: "咸鱼一号"
-  short_description: "按需求调度访谈、协同设计、渲染审查、全栈开发与上线验证"
-  default_prompt: "使用 $xianyu-one 根据我的需求选择合适能力，把想法做成经过审查的好产品。"
+  short_description: "调度产品、架构、AI Coding、设计、全栈开发与上线验证"
+  default_prompt: "使用 $xianyu-one 根据我的需求选择合适能力，设计清晰的软件架构并把想法做成经过审查的好产品。"
